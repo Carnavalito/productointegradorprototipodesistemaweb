@@ -12,10 +12,20 @@ class Restaurant extends BaseController
     {
         return $this->_loadDefaultView([], 'about');
     }
+    public function promotion()
+    {
+        return $this->_loadDefaultView([], 'promotion');
+    }
     public function contact()
     {
         return $this->_loadDefaultView([], 'contact');
     }
+
+    public function galery()
+    {
+        return $this->_loadDefaultView([], 'galery');
+    }
+
     public function product()
     {
         return $this->_loadDefaultView([], 'product');

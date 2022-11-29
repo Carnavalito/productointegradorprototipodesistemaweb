@@ -37,12 +37,14 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Restaurant::index');
 $routes->get('/about', 'Restaurant::about');
+$routes->get('/promotion', 'Restaurant::promotion');
 $routes->get('/contact', 'Restaurant::contact');
 $routes->get('/restaurant', 'Restaurant::product');
 $routes->get('/service', 'Restaurant::service');
 $routes->get('/team', 'Restaurant::team');
 $routes->get('/testimonial', 'Restaurant::testimonial');
 $routes->get('/faq', 'Restaurant::faq');
+$routes->get('/galery', 'Restaurant::galery');
 
 /*
  * --------------------------------------------------------------------
